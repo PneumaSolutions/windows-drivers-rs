@@ -74,6 +74,7 @@ typedef union _KIDTENTRY64
 #include <..\km\hidport.h>
 #include <hidclass.h>
 #include <winioctl.h>
+#include <namedpipeapi.h>
 
 const ULONG FIXED_IOCTL_HID_GET_DEVICE_DESCRIPTOR = IOCTL_HID_GET_DEVICE_DESCRIPTOR;
 const ULONG FIXED_IOCTL_HID_GET_DEVICE_ATTRIBUTES = IOCTL_HID_GET_DEVICE_ATTRIBUTES;
